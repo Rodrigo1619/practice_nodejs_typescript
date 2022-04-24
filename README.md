@@ -12,3 +12,12 @@ Para que no estemos compilando a cada momento manualmente instalamos esto
 
 Pero con eso debemos poner en el package.json, especificamente en los scripts
 * "dev": "ts-node-dev src/index.ts",
+
+Para no estar compilando a cada momento usamos en la terminal
+* npm run dev
+
+si para hacer pruebas con un archivo JSON nos da un error, en el tsconfig ponemos este comando
+* "resolveJsonModule": true
+
+Otra instalación 
+* npm install ts-standard -D
