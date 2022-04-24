@@ -2,6 +2,11 @@
 * npm init -y (y es para que sea todo por defecto)
 * npm install typescript -D
 * npm install express -E (E es la version exacta)
+
+Al nomas abrir visual studio iremos al package json y escribiremos esto en los scripts
+* "tsc" : "tsc"
+asi podremos crear el tsconfig.
+
 para que se nos cree el tsconfig.json automaticamente es con esto:
 * npm run tsc -- --init
 A veces puede dar un error algo raro cuando al principio ponemos
